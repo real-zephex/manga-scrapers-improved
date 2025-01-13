@@ -144,10 +144,4 @@ class WeebCentral extends BaseScraper {
   }
 }
 
-async function test() {
-  const weebCentral = new WeebCentral();
-  const content = await weebCentral.scrapeImages("01JH0QA1FZH50BZNY6STZKZWED");
-  console.log(content);
-}
-
-test();
+export default WeebCentral;

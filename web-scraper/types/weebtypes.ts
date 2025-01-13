@@ -25,3 +25,4 @@ export interface chapter_list {
 export interface WeebImages {
   url?: string;
 }
+

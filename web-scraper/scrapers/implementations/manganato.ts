@@ -4,7 +4,7 @@ import {
   ManganatoChapterList,
   ManganatoInfo,
   ManganatoSearch,
-} from "../../types/manganatotypes";
+} from "../../types/mangatypes";
 
 class Manganato extends BaseScraper {
   base = process.env.MANGANATO_BASE;
@@ -124,3 +124,5 @@ class Manganato extends BaseScraper {
     }
   }
 }
+
+export default Manganato;
